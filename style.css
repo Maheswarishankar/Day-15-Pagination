@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+    box-sizing: border-box;
+  }
+#title{
+    text-align: center;
+    color: rgb(22, 37, 247);
+    text-transform: capitalize;     
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
+#description{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;    
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(22, 37, 247);    
+    font-weight: bold;
+    font-size: 20px;    
+    margin: 2px;    
+    box-sizing: border-box;
+    box-shadow: 5px;
+    color: #000;
+    box-shadow: inset 1px 1px 5px 5px;
+    border: 2px solid #000;    
+    border-radius: 5rem;
+    text-align: center; 
+    margin-bottom: 10px;  
+   
+}
+#pagination{    
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 15px;    
+}
+.table thead{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: rgb(22, 37, 247) !important;
+    color: #fff !important ; 
+    font-weight: 950;
+    padding: 2px; 
+    text-align: center;    
+} 
+#table_body{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;     
+}
+
+
